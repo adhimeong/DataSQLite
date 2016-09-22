@@ -10,8 +10,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.smkn13bdg.adhi.datasqlite.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Buat Biodata Baru"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:id="@+id/kembali2" />
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/kembali2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp" />
 </RelativeLayout>
