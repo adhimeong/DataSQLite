@@ -94,5 +94,4 @@ public class MainActivity extends AppCompatActivity {
         ((ArrayAdapter)ListView01.getAdapter()).notifyDataSetInvalidated();
     }
 
-
 }
