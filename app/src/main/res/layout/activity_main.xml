@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:drawableLeft="@android:drawable/ic_input_add"
-        android:id="@+id/kembali1" />
+        android:id="@+id/tambahdatasiswa" />
 
     <ListView
         android:id="@+id/ListView1"
