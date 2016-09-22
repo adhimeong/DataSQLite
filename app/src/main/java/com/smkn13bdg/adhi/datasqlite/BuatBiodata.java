@@ -10,8 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import static com.smkn13bdg.adhi.datasqlite.R.id.text;
-
 public class BuatBiodata extends AppCompatActivity {
 
     protected Cursor cursor;
@@ -31,7 +29,7 @@ public class BuatBiodata extends AppCompatActivity {
         text4 = (EditText)findViewById(R.id.input4);
         text5 = (EditText)findViewById(R.id.input5);
         ton1 = (Button)findViewById(R.id.simpan1);
-        ton2 = (Button)findViewById(R.id.kembali2);
+        ton2 = (Button)findViewById(R.id.kembali1);
 
         ton1.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -59,7 +57,7 @@ public class BuatBiodata extends AppCompatActivity {
 
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
-        
+
         return super.onPrepareOptionsMenu(menu);
     }
 }

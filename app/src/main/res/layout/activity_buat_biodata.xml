@@ -101,7 +101,7 @@
         android:text="Simpan" />
 
     <Button
-        android:id="@+id/kembali2"
+        android:id="@+id/kembali1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/simpan1"
