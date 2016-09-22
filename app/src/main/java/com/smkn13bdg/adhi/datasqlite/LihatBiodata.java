@@ -4,6 +4,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -14,6 +15,7 @@ public class LihatBiodata extends AppCompatActivity {
     DataHelper dbHelper;
     Button ton2;
     TextView text1, text2, text3, text4, text5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,5 +51,9 @@ public class LihatBiodata extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
     }
 }
